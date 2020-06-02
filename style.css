@@ -1,0 +1,209 @@
+/*header style*/
+.body{
+	background: black;
+}
+
+.logo{
+	width: 190px;
+	height: 40px;
+	
+	float: left;
+	margin: 10px;
+}
+
+	
+
+.ul{
+	display: block;
+	/*vertical-align: baseline;*/
+}
+
+.li{
+	float: left;
+	margin: 20px 30px 10px 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+	/*text-align: baseline;*/
+	color: white;
+
+
+
+}
+.active{
+	color: red;
+}
+.clear1{
+	clear: left;
+}
+/* section style*/
+.section1{
+	/*display: inline-block;*/
+	margin: 10px;
+	/*background: black;*/
+	/*width: 100%;*/
+
+
+}
+
+.box1{
+	width: 500px;
+
+/*	display: inline-block;*/
+float: left;
+padding-left: 80px;
+
+	
+}
+
+.box2{
+	float: right;
+	padding-right:80px;
+	width: 500px;
+	
+	/*display: inline-block;*/
+}
+.football{
+	width: 400px;
+	height: 200px;}
+	
+	
+.h2{
+	width: 400px;
+	font-weight: 700;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+
+
+}
+.mesi{
+	width: 400px;
+	height: 200px;
+}
+
+}
+.clear2{
+	clear: both;
+}
+
+/*section 2*/
+
+.box3{
+	width: 250px;
+	/*height: 350px;*/
+	float: left;
+	margin: 30px;
+	/*padding: 20px;*/
+	
+	border-color: white;
+	border: solid;
+}
+
+
+.poto{
+	width: 250px;
+	height: 150px;
+	/*float: left;*/
+}
+
+.h3{
+	width: 250px;
+
+	font-weight: 700;
+	color: white;
+	/*float: right;*/
+	font-size: 10px;
+
+
+}
+.celar3{
+	clear: both;
+
+}
+/*footer index.html*/
+
+
+.you{
+	width: 50px;
+	height: 30px;
+		float: left;
+		margin: 0 20px;
+}
+
+.divider{
+	width: 5px;
+	height: 30px;
+	background: white;
+		float: left;
+	}
+
+	/*news*/
+.statia1{
+	width: 50%;
+	height: 20%;
+	display: block;
+	margin: 0 auto;
+}
+.h1{
+	margin: 10px 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 800;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+.body-news{
+	background: black;
+}
+.box1-news{
+	margin: 0 20px;
+	/*text-align: center;*/
+	font-size: 20px;
+	font-weight: 100;
+	text-indent: 20px;
+	color: white;
+
+}
+./*box1-news-decoration{
+	text-decoration: blink;
+}*/
+
+
+/*sport page*/
+.sport-h1{
+	font-weight: 700px;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+
+
+.sport-div1{
+	
+	/*width: 70%;*/
+	display: block;
+	
+	margin:10px 70px; 
+	float: left;
+	border-top: black;
+	border-left: black;
+	border-right: black;
+}
+
+
+.sport-text{
+	width: 70%;
+
+}
+.sport-h1::after{
+	content: '';
+	display: block;
+	clear: left;
+	
+
+}
+.line2{
+	background: red;
+	width: 20px;
+	height: 3px;
+	margin: 0 auto;
+}
